@@ -29,13 +29,15 @@ public class EmployeePensionPlan {
         Employee e1 = new Employee(1, "Daniel", "Agar", LocalDate.of(2018, 1, 17), 105945.50);
         e1.pensionPlan = new PensionPlan("EX1089", LocalDate.of(2023, 1, 17), 100.00);
 
-        Employee e2 = new Employee(2, "Benard", "Shaw", LocalDate.of(2018, 10, 3), 197750.00);
+        Employee e2 = new Employee(2, "Benard", "Shaw", LocalDate.of(2022, 9, 3), 197750.00);
         Employee e3 = new Employee(3, "Carly", "Agar", LocalDate.of(2014, 5, 16), 842000.75);
         e3.pensionPlan = new PensionPlan("SM2307", LocalDate.of(2019, 11, 4), 1555.50);
 
-        Employee e4 = new Employee(4, "Wesley", "Schneider", LocalDate.of(2018, 11, 2), 74500.00);
+        Employee e4 = new Employee(4, "Wesley", "Schneider", LocalDate.of(2022, 7, 11), 74500.00);
+        Employee e5 = new Employee(5, "Anna", "Wiltord", LocalDate.of(2022, 6, 15), 74500.00);
+        Employee e6 = new Employee(6, "Yosef", "Tesfalem", LocalDate.of(2022, 10, 31), 74500.00);
 
-        employees.addAll(Arrays.asList(e1, e2, e3, e4));
+        employees.addAll(Arrays.asList(e1, e2, e3, e4, e5, e6));
     }
 
     static void printAllEmployeesJson() throws Exception {
